@@ -17,13 +17,20 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
-
+.profile-image {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%; /* For rounded appearance */
+  width: 60px; /* Adjust width as needed */
+  height: 60px; /* Adjust height as needed */
+  margin-left: 10px; /* Add some spacing between h1 and image */
+}
 /* Header styles */
 header {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 
 nav ul {
